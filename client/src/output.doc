@@ -1,0 +1,36 @@
+Folder PATH listing for volume L DIsk
+Volume serial number is 0EE4-C36F
+C:.
+|   AccountNav.jsx
+|   AddressLink.jsx
+|   App.css
+|   App.jsx
+|   BookingWidget.jsx
+|   Header.jsx
+|   index.css
+|   Layout.jsx
+|   main.jsx
+|   output.doc
+|   Perks.jsx
+|   PhotosUploader.jsx
+|   PlaceGallery.jsx
+|   PlaceImg.jsx
+|   UserContext.jsx
+|   
++---assets
+|       location.svg
+|       logo.svg
+|       logologo.svg
+|       react.svg
+|       
+\---pages
+        BookingPage.jsx
+        BookingsPage.jsx
+        indexPage.jsx
+        loginPage.jsx
+        PlacePage.jsx
+        PlacesFormPage.jsx
+        PlacesPage.jsx
+        ProfilePage.jsx
+        RegisterPage.jsx
+        
