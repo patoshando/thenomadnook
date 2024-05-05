@@ -29,6 +29,11 @@ export default function BookingWidget({place}){
     }
 
     async function bookThisPlace(){
+        if (!checkIn || !checkOut || !numberOfGuests || !name || !phone || !place) {
+            alert("DOPLŇTE VŠECHNY INFORMACE!")
+            return;
+          }
+
         const response = await axios.post('/rezervace', {
             checkIn,checkOut,numberOfGuests,name,phone,
             place:place._id,

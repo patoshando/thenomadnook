@@ -60,6 +60,13 @@ export default function PlacesFormPage(){
 
     async function savePlace(ev) {
         ev.preventDefault();
+        if (!title || !address || !addedPhotos || !description || !perks || !extraInfo || 
+            !checkIn || !checkOut || !maxGuests || !price) {
+         alert("DOPLŇTE VŠECHNY INFORMACE!")
+          return;
+        }
+
+        
         const placeData = {
           title, address, addedPhotos,
           description, perks, extraInfo,
@@ -118,7 +125,7 @@ export default function PlacesFormPage(){
                     <input value={price} onChange={ev => setPrice(ev.target.value)} type="number" placeholder="100" />
                     </div>
                     <div>
-                        <button className="primary my-4">Vytvořit</button>
+                        <button className="primary my-4">Vytvořit / Uložit</button>
                     </div>
                 </div>
             </form>
