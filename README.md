@@ -1,1 +1,6 @@
-# ROČNÍKOVÝ PROJEKT
+# THE NOMAD NOOK
+
+
+# NPM
+
+npm install
